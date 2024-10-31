@@ -1,0 +1,350 @@
+/* Enp */
+.en_popup_enp_form {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    overflow-y: scroll;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.confirmation_enp_delete .en_popup_enp_form {
+    height: auto !important;
+    overflow-y: auto !important;
+}
+
+.en_popup_enp_form .en_close_popup_enp {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.en_hide_popup_enp {
+    margin: 3% auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    overflow-y: auto;
+}
+
+.en_ppfw_enp_btn {
+    clear: both;
+    float: right;
+    margin: 70px 0% 0% 0% !important;
+
+}
+
+.en_available_link {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #2271b1;
+}
+
+.en_popup_enp_form .en_enp_input_field {
+
+    width: 100% !important;
+    padding: 5px;
+    height: 40px;
+    display: block;
+}
+
+#en_enp_nickname {
+    margin: 0px 10px 0px 0px !important;
+}
+
+.en_popup_enp_form .en_multi_city_change,
+.en_popup_enp_form #en_enp_nickname,
+.en_popup_enp_form #en_ppfw_enp_zip,
+.en_popup_enp_form #en_enp_city,
+.en_popup_enp_form #en_enp_state,
+.en_popup_enp_form #en_enp_country {
+    margin: 10px 10px 0px;
+    padding: 5px;
+}
+
+.en_popup_enp_form .en_enp_checkout_field input {
+    float: right;
+    margin: 10px 0px 0px 8px !important;
+}
+
+.en_popup_enp_form .en_enp_checkout_field {
+    width: 43%;
+}
+
+.en_popup_enp_form label, #en_enable_pallet {
+    font-weight: 600;
+    line-height: 1.9;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#en_enable_pallet {
+    margin-left: 10px !important;
+}
+
+.en_enp_input_field {
+    border-radius: 5px !important;
+}
+
+.en_enp_pship_main_div ~ .submit {
+    display: none !important;
+}
+
+.en_popup_enp_overly {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+}
+
+.en_enp_db_data,
+.en_enp_custom_data {
+    display: none;
+}
+
+.en_enp_icons a {
+    margin: 3px;
+    text-decoration: none;
+}
+
+.en_popup_enp_input_field {
+    display: inline-block;
+    width: 48%;
+    margin: 0px 5px 6px 5px;
+}
+
+#en_popup_enp_heading {
+    margin-bottom: -19px;
+}
+
+#en_enp_form_reset_me {
+    margin-top: 20px;
+}
+
+label[for="en_ppfw_enp_zip"]:after,
+label[for="en_enp_city"]:after,
+label[for="en_enp_state"]:after,
+label[for="en_enp_country"]:after {
+    content: " *";
+    color: red;
+}
+
+.en_enp_error {
+    color: #d8000c;
+    font: 300 11px Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    height: 18px;
+    margin: 0;
+    overflow: hidden;
+    padding: 4px 4px 4px 0;
+    position: absolute;
+    display: block;
+}
+
+.en_enp_error_message {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-left: 4px solid #dc3232;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 5px 15px 2px 0px;
+    padding: 10px 12px;
+    clear: both;
+    display: none;
+}
+
+.en_popup_enp_form .en_enp_error_message {
+    margin-top: 30px;
+}
+
+.en_enp_success_message {
+    background: #fff none repeat scroll 0 0;
+    border-left: 4px solid #46b450;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 5px 15px 2px 0px;
+    padding: 10px 12px;
+    clear: both;
+    display: none;
+}
+
+.spinner_disable {
+    color: #000000;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.en_enp_table {
+    font-family: 'Arial';
+    margin: 25px auto 40px;
+    border: 1px solid #eee;
+    width: 100%;
+    border-spacing: 1px;
+}
+
+.en_enp_table th {
+    color: white;
+    background-color: #798089;
+    height: 40px;
+    padding: 8px;
+
+}
+
+.en_enp_table td {
+    text-align: center;
+    background-color: #D6D5D5;
+    height: 25px;
+    font-size: 15px;
+}
+
+.en_confirmation_buttons {
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.en_confirmation_buttons .en_enp_cancel_delete, .en_confirmation_buttons .en_enp_confirm_delete {
+    padding: 5px;
+}
+
+/**
+Enp Tags
+ */
+.bootstrap-tagsinput {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    display: inline-block;
+    padding: 4px 6px;
+    color: #555;
+    vertical-align: middle;
+    line-height: 22px;
+    cursor: text;
+}
+
+.bootstrap-tagsinput {
+    margin: 10px;
+    width: 55.5%;
+    padding: 5px;
+    float: right;
+    min-height: 30px;
+    height: auto;
+}
+
+.bootstrap-tagsinput input {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 6px;
+    margin: 0;
+    width: auto;
+    max-width: inherit;
+}
+
+.bootstrap-tagsinput.form-control input::-moz-placeholder {
+    color: #777;
+    opacity: 1;
+}
+
+.bootstrap-tagsinput.form-control input:-ms-input-placeholder {
+    color: #777;
+}
+
+.bootstrap-tagsinput.form-control input::-webkit-input-placeholder {
+    color: #777;
+}
+
+.bootstrap-tagsinput input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.bootstrap-tagsinput .tag {
+    background: none repeat scroll 0 0 #ccc;
+    border-radius: 2px;
+    color: black;
+    cursor: default;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    padding: 4px 10px 4px 4px;
+    margin: 2px 10px 2px 0;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"] {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.bootstrap-tagsinput .tag span {
+    display: inline-block;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]:after {
+    content: "x";
+    padding: 0px 2px;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]:hover {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]:hover:active {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.en_plan_notification,
+.en_plan_notification:hover {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    margin: 5px 0 0 6px;
+    display: inline-block;
+}
+
+#en_disabled_plan .bootstrap-tagsinput,
+.en_disabled_plan {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.en_instore_pickup_notification .en_plan_notification {
+    margin: 16px 0px 0px 50px !important;
+}
+
+.en_float_right {
+    float: right;
+}
+
+.en_float_left {
+    float: left;
+}
+
+.en-adding-pallets-btn {
+    float: right;
+    margin-bottom: 10px !important;
+}
+
+#pallet_sizing_description-description + .warning-msg-ltl,
+#pallet_sizing_description-description + .warning-msg,
+#pallet_sizing_description-description + .fedex_freight_warning_msg,
+#pallet_sizing_description-description + .xpo_warning_msg,
+#pallet_sizing_description-description + .abf_warning_msg {
+    display: none;
+}
+
+.en_enp_pship_main_div .estes_test_connection,
+#en_enp_form_reset_me .estes_test_connection {
+    display: none;
+}

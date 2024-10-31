@@ -1,0 +1,171 @@
+/* pallet plans */
+.en_pallet_sizing_list {
+    width: 100% !important;
+    border-color: white;
+}
+
+.en_pallet_sizing_list th {
+    color: white;
+    background-color: #798089;
+    height: 45px;
+    font-size: 15px;
+}
+
+.en_pallet_sizing_list td {
+    text-align: center;
+    background-color: #D6D5D5;
+    height: 25px;
+    font-size: 15px;
+}
+
+/* confirm plan notification for pallet */
+.en_pallet_sizing_subscription_status_style, .en_pallet_sizing_plugin_name_style {
+    display: none;
+}
+
+.en_notification_disable_to_plan_overlay_pallet {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 2ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+    transition: all 0.2s ease-in-out
+}
+
+.en_notification_disable_to_plan_overlay_pallet:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.freightview_freight_tab_section .warning-msg {
+    display: none;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet .close:hover {
+    color: #ea6153;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet .content label {
+    cursor: default;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet .content label {
+    font-weight: 900;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet .content .sm_add_pallethouse_input {
+    width: 80%;
+    text-align: right;
+}
+
+.en_pallet_notifi_disabl_to_plan_pallet .content .sm_add_pallethouse_input input {
+    border-radius: 5px;
+    margin: 10px;
+    width: 70%;
+}
+
+.confirmation_p {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 25px 3px;
+}
+
+.confirmation_btns {
+    margin-right: 40px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cancel_plan {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.confirm_plan {
+    background: #008ec2;
+    border-color: #006799;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.confirm_plan:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cerasis_connection_section_class .suspend_automatic_detection_of_pallets,
+.unishippers_ltl_connection_section_class .suspend_automatic_detection_of_pallets,
+.unishippers_ltl_connection_section_class #en_pallet_available {
+    width: auto !important;
+}
+
+.freightquote_ltl_connection_section_class .suspend_automatic_detection_of_pallets,
+.freightquote_ltl_connection_section_class #en_pallet_available,
+.connection_section_class_odfl .suspend_automatic_detection_of_pallets,
+.connection_section_class_odfl #en_pallet_available,
+.ltl_connection_section_class .suspend_automatic_detection_of_pallets,
+.ltl_connection_section_class #en_pallet_available,
+.cerasis_connection_section_class .suspend_automatic_detection_of_pallets,
+.cerasis_connection_section_class #en_pallet_available,
+.unishippers_ltl_connection_section_class .suspend_automatic_detection_of_pallets,
+.unishippers_ltl_connection_section_class #en_pallet_available {
+    width: auto !important;
+}
+
+.confirmation_enp_delete .estes_test_connection {
+    display: none;
+}
+
+#shipping_product_data div p[class*='_en_sao_pallet'] input[id^='_en_sao_pallet'],
+#shipping_product_data div p[class*='_en_vrf_pallet'] input[id^='_en_vrf_pallet'] {
+    float: left; 
+    vertical-align: middle; 
+    margin: 4px 0;
+}
